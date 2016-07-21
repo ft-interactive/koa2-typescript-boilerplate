@@ -21,6 +21,8 @@
   "files": [
     "./typings/index.d.ts",
     "./lib/index.ts",
-    "./lib/routes.ts"
+    "./lib/routes.ts",
+    "./lib/test/index.spec.ts",
+    "./lib/test/routes.spec.ts"
   ]
 }

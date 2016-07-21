@@ -1,10 +1,18 @@
 {
   "name": "koa2-typescript-boilerplate",
   "version": "1.0.0",
+  "engines": {
+    "node": "6.3.0"
+  },
   "description": "A boilerplate for using Koa2 with TypeScript",
   "main": "build/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "tsc && mocha build/test",
+    "install-typings": "typings install",
+    "build": "tsc",
+    "start": "node build/index.js",
+    "dev-server": "ts-node lib/index.ts",
+    "lint": "tslint lib/**/*.ts"
   },
   "keywords": [
     "typescript",
