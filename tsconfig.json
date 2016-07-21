@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es6",
+    "noImplicitAny": true,
+    "sourceMap": true,
+    "outDir": "./build",
+    "rootDir": "./lib"
+  },
+  "compileOnSave": false,
+  "filesGlob": [
+    "./typings/index.d.ts",
+    "./lib/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ],
+  "atom": {
+    "rewriteTsconfig": true
+  },
+  "files": [
+    "./typings/index.d.ts",
+    "./lib/index.ts",
+    "./lib/routes.ts"
+  ]
+}
