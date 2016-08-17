@@ -33,4 +33,4 @@ This is a quick boilerplate instructing how configure TypeScript to work with Ko
 ## ToDo:
 - [ ] Add some basic SuperTest integration tests
 - [ ] Add an example using `koa-views` or somesuch
-- [ ] Write some example middleware showcasing async/await sexiness
+- [ ] Write some example middleware showcasing async/await hawtness
