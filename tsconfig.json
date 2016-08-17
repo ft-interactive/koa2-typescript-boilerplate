@@ -10,7 +10,7 @@
   "compileOnSave": false,
   "filesGlob": [
     "./typings/index.d.ts",
-    "./lib/**/*"
+    "./lib/**/*.ts"
   ],
   "exclude": [
     "node_modules"

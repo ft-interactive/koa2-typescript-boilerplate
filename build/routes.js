@@ -16,6 +16,7 @@ const router = new Router();
  * Index page. Currently doesn't do anything. ¯\_(ツ)_/¯
  */
 router.get('/', (ctx, next) => __awaiter(this, void 0, void 0, function* () {
+    yield next();
     ctx.body = '(This page intentionally left blank)';
     ctx.status = 200;
 }));

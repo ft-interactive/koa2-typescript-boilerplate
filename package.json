@@ -1,6 +1,6 @@
 {
   "name": "koa2-typescript-boilerplate",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "engines": {
     "node": "6.3.0"
   },
@@ -8,10 +8,10 @@
   "main": "build/index.js",
   "scripts": {
     "test": "tsc && mocha build/test",
-    "install-typings": "typings install",
+    "postinstall": "typings install && npm run build",
     "build": "tsc",
     "start": "node build/index.js",
-    "dev-server": "ts-node lib/index.ts",
+    "dev-server": "nodemon -w lib -x ts-node lib/index.ts",
     "lint": "tslint lib/**/*.ts"
   },
   "keywords": [
@@ -26,7 +26,7 @@
     "dotenv": "^2.0.0",
     "koa": "^2.0.0",
     "koa-bodyparser": "^3.1.0",
-    "koa-router": "^5.4.0"
+    "koa-router": "^7.0.1"
   },
   "devDependencies": {
     "chai": "^3.5.0",
