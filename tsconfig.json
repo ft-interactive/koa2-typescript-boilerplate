@@ -9,7 +9,6 @@
   },
   "compileOnSave": false,
   "filesGlob": [
-    "./typings/index.d.ts",
     "./lib/**/*.ts"
   ],
   "exclude": [
@@ -19,7 +18,6 @@
     "rewriteTsconfig": true
   },
   "files": [
-    "./typings/index.d.ts",
     "./lib/index.ts",
     "./lib/routes.ts",
     "./lib/test/index.spec.ts",
